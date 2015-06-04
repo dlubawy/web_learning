@@ -1,0 +1,13 @@
+<script>
+    var nums = [1,2];
+    for(i = 0; nums[i] < "4000000"; i++) {
+	nums.push(nums[i]+nums[i+1]);
+    }
+    var sum = 0;
+    for(var j = 0; j < nums.length; j++) {
+	if(nums[j]%2 === 0) {
+	    sum+=nums[j];
+	}
+    }
+    document.write(sum);
+</script>

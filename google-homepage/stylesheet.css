@@ -1,0 +1,116 @@
+.top {
+    top: 5px;
+}
+
+.center {
+    padding: 112px;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #e4e4e4;
+    margin-top: 168px;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.bottom a {
+    color: #666;
+    font-size: small;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.h {
+    display: inline;
+}
+
+.left.h {
+    float: left;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.right.h {
+    padding-right: 10px;
+    float: right;
+}
+
+#logo {
+    width: 269px;
+    height: 95px;
+}
+
+body {
+    margin: auto;
+}
+
+html {
+    margin-bottom: 0px;
+}
+
+input {
+    font-family: Arial;
+}
+
+.top a {
+    font-size: 13px;
+}
+
+#bar {
+    width: 568px;
+    height: 20px;
+}
+
+.button {
+    margin: 20px 5px 0px 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#sign {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    background-color: #4285f4;
+    width: 45px;
+    height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 10px;
+}
+
+#sign:hover {
+    text-decoration:none;
+}

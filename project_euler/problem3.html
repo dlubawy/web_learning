@@ -1,0 +1,17 @@
+<script>
+    var isprime = function(num) {
+	for(i = num - 1; i > 1; i--) {
+	    if(num%i === 0) {
+		return false;
+	    }
+	}
+    }
+    var x = 13195;
+    var primes = [];
+    for(var j = 2; j < x; j++) {
+	if(x%j === 0 && isprime(j) !== false) {
+	    primes.push(j);
+	}
+    }
+    document.write(primes[primes.length-1]);
+</script>
